@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--构造方法    <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl"></bean>-->
+<!--静态工厂    <bean id="bookDao" class="org.example.factory.BookDaoFactory" factory-method="getBookDaoImpl"></bean>-->
+<!--实例工厂    <bean id="bookDaoFactory" class="org.example.factory.BookDaoFactory2"></bean>
+    <bean id="bookDao" factory-bean="bookDaoFactory" factory-method="getBookDaoImpl"></bean>-->
+<!--Factory Bean-->
+    <bean id="bookDao" class="org.example.factory.BookDaoFactoryBean"></bean>
+    <bean id="bookService" name="bookService1 bookService2" class="org.example.service.impl.BookServiceImpl"
+          scope="singleton">
+        <property name="bookDao" ref="bookDao"></property>
+    </bean>
+</beans>

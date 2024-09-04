@@ -1,0 +1,16 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(İßÅŒıÿÿÿÿ8×¢¿“2
+L	java:S106"+Replace this use of System.out by a logger.(Æ¡åÆúÿÿÿÿ8×¢¿“2
+L	java:S106 "+Replace this use of System.out by a logger.(Îæ ×øÿÿÿÿ8×¢¿“2
+G	java:S106%"+Replace this use of System.out by a logger.(÷˜»ß8×¢¿“2
+G	java:S106'"+Replace this use of System.out by a logger.(›Åîƒ8×¢¿“2
+L	java:S106-"+Replace this use of System.out by a logger.(²Ò¤„şÿÿÿÿ8×¢¿“2
+L	java:S1062"+Replace this use of System.out by a logger.(ã»úàÿÿÿÿÿ8×¢¿“2
+`
+java:S1128">Remove this unused import 'org.aspectj.lang.annotation.After'.(§±•Ãùÿÿÿÿ8Ñ’ë“2
+c
+java:S1128"GRemove this unused import 'org.aspectj.lang.annotation.AfterReturning'.(Ún8¹¶é“2
+a
+java:S1128"?Remove this unused import 'org.aspectj.lang.annotation.Around'.(ï°Œşûÿÿÿÿ8§§Ë“2
+a
+java:S1128	"?Remove this unused import 'org.aspectj.lang.annotation.Before'.(™ Ş¡ÿÿÿÿÿ8×¢¿“2

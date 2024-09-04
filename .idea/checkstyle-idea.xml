@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA" serialisationVersion="2">
+    <checkstyleVersion>10.7.0</checkstyleVersion>
+    <scanScope>JavaOnly</scanScope>
+    <copyLibs>true</copyLibs>
+    <option name="activeLocationIds">
+      <option value="1d5ba265-2d0b-453a-b17e-1ab94e6da4fb" />
+    </option>
+    <option name="locations">
+      <list>
+        <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="1d5ba265-2d0b-453a-b17e-1ab94e6da4fb" type="HTTP_URL" scope="All" description="mit-checkstyle">https://cnbj2m-fds.api.xiaomi.net/mit-infra/checkstyle.xml</ConfigurationLocation>
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl">
+        <property name="array">
+            <list>
+                <value>100</value>
+                <value>200</value>
+                <value>300</value>
+            </list>
+        </property>
+        <property name="list">
+            <list>
+                <value>20</value>
+                <value>30</value>
+                <value>40</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>10</value>
+                <value>30</value>
+                <value>50</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="张三" value="90"></entry>
+                <entry key="李四" value="80"></entry>
+                <entry key="王五" value="70"></entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="1">hh</prop>
+                <prop key="2">gg</prop>
+                <prop key="3">ss</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="bookService" class="org.example.service.impl.BookServiceImpl" autowire="byType">
+    </bean>
+    <!--autowire优先级低于setter和constructor，不能用于简单类型-->
+</beans>

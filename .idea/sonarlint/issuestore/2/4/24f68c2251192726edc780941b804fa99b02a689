@@ -1,0 +1,9 @@
+
+a
+java:S1854"?Remove this useless assignment to local variable "bookService".(×°Ïøıÿÿÿÿ8Áòàò2
+]	java:S125"<This block of commented-out lines of code should be removed.(ùË×¯ùÿÿÿÿ8ºßò2
+R
+java:S1481"0Remove this unused "bookService" local variable.(×°Ïøıÿÿÿÿ8Ğòàò2
+F	java:S106"+Replace this use of System.out by a logger.(ºâ¹#8ºßò2
+]	java:S125"<This block of commented-out lines of code should be removed.(£¹›úûÿÿÿÿ8ºßò2
+X	java:S125"<This block of commented-out lines of code should be removed.(­å¥8Ğòàò2
